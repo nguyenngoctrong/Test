@@ -1,0 +1,45 @@
+
+.cardF{
+    width: 20%;
+    display: block;
+        height: 830px;
+    }
+    .news{
+        background-color: white;
+        padding: 2%;
+        border: solid 1.5px lightgray;
+        border-radius: 2%;
+    }
+    .news >img{
+        width: 100%;
+        border-radius: 2%;
+    
+    }
+    .news{
+        height: 800px;
+    }
+    .imgfestival{
+        height:300px;
+    }
+    .namFF{
+        margin-top: 5%;
+        color: #6f42c1 ;
+    }
+    .religion{
+        color:#029f5b ;
+        font-size: 120%;
+    
+    }
+    .startdayFF{
+        color:red ;
+        font-size: 100%;
+    
+    
+    
+    }
+    .cardFF{
+        height: 300px;
+        font-style: italic;
+        text-align: justify;
+        padding: 2%;
+    }

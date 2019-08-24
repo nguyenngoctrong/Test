@@ -1,0 +1,67 @@
+
+<div class="container profile">
+  <h1 class="colina ">Update Profile</h1>
+  <hr />
+  <div class="row" *ngFor="let u of userTam">
+      <div class="col-md-4">
+          <div class="text-center">
+
+              <img [src]="u.Avatar" class="avatar img-circle" alt="avatar">
+               <br />
+              <label class="btn-bs-file btn btn-lg btn-primary">
+                  Choose file
+                  <input id="choosefile" type="file" (change)="mychange($event)" [(ngModel)]="u.Avatar"/>
+              </label>
+          </div>
+      </div>
+      <div class="col-md-8 personal-info">
+          <h4 class="colina colina2">Personal information</h4>
+          <form class="form-horizontal" role="form">
+              <div class="form-group">
+                  <label class="col-lg-8 control-label famaly">Email :</label>
+                  <div class="col-lg-11">
+                      <input  id="inputEmail" class="form-control update" type="Email" name="email" [(ngModel)]="u.Email" placeholder="Email..." readonly>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-lg-8 control-label famaly">User name :</label>
+                  <div class="col-lg-11">
+                      <input id="inputUsername" class="form-control update" type="text" name="username" [(ngModel)]="u.Username" placeholder="User name..." readonly>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-lg-8 control-label famaly">Full name :</label>
+                  <div class="col-lg-11">
+                      <input class="form-control update" id="inputFullname" type="text" name="fullname" [(ngModel)]="u.Fullname" placeholder="Full name...">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-lg-8 control-label famaly">Phone number :</label>
+                  <div class="col-lg-11">
+                      <input class="form-control update " type="text" id="inputNumberphone" name="sdt" [(ngModel)]="u.Sdt"  placeholder="Phone number..." ><p class="wr5"></p>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-lg-8 control-label famaly">Your birthday : </label>
+                  <div class="col-lg-11">
+                      <input class="form-control update" id="inputBirthday" type="date" name="birthday" [(ngModel)]="u.Birthday" value="">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-lg-8 control-label famaly">Address :</label>
+                  <div class="col-lg-11">
+                      <input class="form-control update" id="inputAddress" type="text"name="address" [(ngModel)]="u.Address" placeholder="Address...">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-md-8 control-label"></label>
+                  <div class="col-md-11">
+                      <input  type="button" class="btn btn-primary" id="updateprofile" (click)="update();" value="Update">
+                      <span></span>
+                      <input type="reset" class="btn btn-danger" value="Cancel">
+                  </div>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>

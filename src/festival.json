@@ -1,0 +1,489 @@
+{
+    "Admin": [
+        {
+            "Password": 1234,
+            "Username": "nguyenngoctrong"
+        }
+    ],
+    "Garelly": [
+        {   
+            "id":1,
+            "Image": "assets/images/Garelly/gl (1).jpg",
+            "Title": "people gathering on concert field"
+        },
+        {
+            "id":2,
+            "Image": "assets/images/Garelly/gl (2).jpg",
+            "Title": "woman performing fire spitting"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (3).jpg",
+            "Title": "low angle photography of festival banner"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (4).jpg",
+            "Title": "group of people gathering on field"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (5).jpg",
+            "Title": "people gathering in front of brown tower during nighttime"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (6).jpg",
+            "Title": "two woman standing on field of people"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (7).jpg",
+            "Title": "woman selling inside store during daytime"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (8).jpg",
+            "Title": "person raising cup on the crowd selective focus photography"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (9).jpg",
+            "Title": "group of people during daytime"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (10).jpg",
+            "Title": "people racing smartphones on concert"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (11).jpg",
+            "Title": "low-angle shot of paper lanterns"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (12).jpg",
+            "Title": "assorted-color pennants"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (13).jpg",
+            "Title": "people watching fire bursting on stage"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (14).jpg",
+            "Title": "fireworks launching on stage"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (15).jpg",
+            "Title": "hot air balloon pfestival"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (16).jpg",
+            "Title": "group of people raising there hands in concert"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (17).jpg",
+            "Title": "photography of concert"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (18).jpg",
+            "Title": "group of people celebrating powder festival outdoors"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (19).jpg",
+            "Title": "group of people watching fireworks display"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (20).jpg",
+            "Title": "group of people on grass field under sunny day"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (21).jpg",
+            "Title": "group of people in front of stage"
+        },
+        {
+            "Image": "assets/images/Garelly/gl (22).jpg",
+            "Title": "Camping"
+        }
+    ],
+    "cart": [
+        {
+            "id":"1",
+            "Hotel": [
+                {
+                    
+                    "Amount": "5",
+                    "Endday": "2018-12-15",
+                    "IdFestival": "0",
+                    "Idd": "0",
+                    "NameFestival": "white night festival",
+                    "Startday": "2018-12-12",
+                    "Typeroom": "Single room"
+                }
+            ],
+            "Ticket": [
+                {
+                    "Amount": "5",
+                    "IdFestival": "0",
+                    "Idd": "0",
+                    "Money": "20",
+                    "NameFestival": "white night festival"
+                },
+                {
+                    "Amount": "5",
+                    "IdFestival": "1",
+                    "Idd": "1",
+                    "Money": "20",
+                    "NameFestival": "holi festival"
+                }
+            ],
+            "Total": "20",
+            "Tour": [
+                {
+                    "Amount": "5",
+                    "IdFestival": "0",
+                    "Idd": "0",
+                    "Money": "30",
+                    "NameFestival": "white night festival"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"3",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"4",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"5",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"5",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"6",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"7",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"8",
+            "Hotel": "",
+            "Ticket": "",
+            "Total": "0",
+            "Tour": ""
+        },
+        {
+            "id":"9",
+            "Hotel": "",
+            "Ticket": [
+                {
+                    "Amount": "5",
+                    "IdFestival": "0",
+                    "Idd": "0",
+                    "Money": "20",
+                    "NameFestival": "white night festival"
+                },
+                {
+                    "Amount": "5",
+                    "IdFestival": "1",
+                    "Idd": "1",
+                    "Money": "20",
+                    "NameFestival": "holi festival"
+                }
+            ],
+            "Total": "10",
+            "Tour": ""
+        }
+    ],
+    "feedback": [
+        {
+            "Conten": "dasdsa222222",
+            "Email": "ngdsas@gmail.com",
+            "Feedback": "qqqqqqqqqqqqqqqqq",
+            "Username": "nguyen van c"
+        }
+    ],
+    "festival": [
+        {
+            "Aboutfestival": "The White Nights Festival was first celebrated in 1992. In the same year, the festival was registered with an international body called International Federation of Festival Organizations (FIDOF). At that time, the head of the festival was the mayor of St. Petersburg who was Anatoly Sobchak. The purpose of the White Nights Festival is to enhance cultural exchanges between Russia and the whole world.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a0.jpg",
+            "Activities": "The White Nights Festival normally commences with a performance of the “Stars of the White Nights.” This performance is a must-see event which takes place at the Mariinsky Theatre. It is an exceptional production which combines historical artistic works, new premieres, and contemporary pieces. In addition, there are musical performances in the form of ballets, classical music, and opera. Throughout the festival, there are evening performances at the Mariinsky Theatre and Mariinsky Concert Hall. The climax of the White Nights Festival is the “Scarlet Saints” celebration. Scarlet Saints involves an impressive display of fireworks and a pirates’ fight on the River Neva.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af0.jpg",
+            "History": "White Night (Nuit Blanche) was originally staged in Paris in 2002 as an all-night festival celebrating the French capital’s contemporary art scene. In 2013, Melbourne became the first Australian city to hold a White Night festival, embracing this unique opportunity – created by the State Government – to showcase local, national and international artistic innovation. It was an instant success, with 300 000 people enjoying the all-night event.",
+            "Historyimg": "../assets/images/DetailFestival/History/h0.jpg",
+            "Location": "russia",
+            "Name": "white night festival",
+            "Startday": "29-11",
+            "Synopsis": "The White Nights Festival is an international arts and music festival in Russia. It is celebrated during the season of the midnight sun where the Northern Lights shines at dusk and dawn. The festival usually takes place between May and July in St. Petersburg, Russia.",
+            "Video": "../assets/videos/Detailfestival/v0.mp4"
+        },
+        {
+            "Aboutfestival": "It is said that Holi existed several centuries before Christ. However, the meaning of the festival is believed to have changed over the years. Earlier it was a special rite performed by married women for the happiness and well-being of their families and the full moon (Raka) was worshiped.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a1.jpg",
+            "Activities": "Besides having a detailed description in the Vedas and Puranas such as Narad Purana and Bhavishya Purana, the festival of Holi finds a mention in Jaimini Mimansa. A stone incription belonging to 300 BC found at Ramgarh in the province of Vindhya has mention of Holikotsav on it. King Harsha, too has mentioned about holikotsav in his work Ratnavali that was written during the 7th century.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af1.jpg",
+            "History": "In some parts of India, specially in Bengal and Orissa, Holi Purnima is also celebrated as the birthday of Shri Chaitanya Mahaprabhu (A.D. 1486-1533). However, the literal meaning of the word 'Holi' is 'burning'. Most prominent of to explain the meaning of this word is the legend associated with demon king Hiranyakashyap.",
+            "Historyimg": "../assets/images/DetailFestival/History/h1.jpg",
+            "Location": "india",
+            "Mapimg": "../images/DetailFestival/map/map1.gif",
+            "Name": "holi festival",
+            "Startday": "20-3",
+            "Synopsis": "Holi is an ancient festival of India and was originally known as 'Holika'. The festivals finds a detailed description in early religious works such as Jaimini's Purvamimamsa-Sutras and Kathaka-Grhya-Sutras. Historians also believe that Holi was celebrated by all Aryans but more so in the Eastern part of India.",
+            "Video": "../assets/videos/Detailfestival/v1.mp4"
+        },
+        {
+            "Aboutfestival": "For the 6th year, the capital of the Netherlands organizes the Amsterdam Light Festival. In 2012, the festival consisted of only 20 pieces of artwork. Now, six years later, the light festival is one of Europe’s most important light art festivals.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a2.jpg",
+            "Activities": "Amsterdam Light Festival is best seen from the water. Many artworks and light art installations are located next to the Amsterdam Light Festival route, a boat route through the Amsterdam canals. The artworks' reflections cause a magical interplay between light and water. Want to experience the light art from up close? Join us on one of our Amsterdam Light Festival canal cruises.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af2.jpg",
+            "History": "In 2009, Mr. Horbach and Mr. Buchel felt more should happen during the wintertime in Amsterdam. Despite limited resources, they organized the first Christmas Canal Parade in order to create a new winter tradition in Amsterdam. A few years later, in 2012, this resulted into the first Amsterdam Light Festival. It was a festival for all people: both the inhabitants of Amsterdam and people from outside the city. Light artworks were placed throughout the city. The works next to and on the Amstel river formed the “Boulevard of Light”. The city's hiking trail with a large number of artworks is called “The Illuminade”. In the context of social involvement, specific projects have been launched under the name of “Socialight”.",
+            "Historyimg": "../assets/images/DetailFestival/History/h2.jpg",
+            "Location": "amsterdam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "amsterdam light  festival",
+            "Startday": "29-11",
+            "Synopsis": "Every year the festival is organized in Amsterdam during winter time(in December and early January) and has a different theme.",
+            "Video": "../assets/videos/Detailfestival/v2.mp4"
+        },
+        {
+            "Aboutfestival": "Maslenitsa Festival is Traditional Russian customs during the Pancake Week In the old days Maslenitsa was for remembrance of the dead. So the burning of the figure of Maslenitsa means her funeral, and blini (pancakes) – coliphia. But with time the Russians longing for fun and entertainment turned the sad holiday into jolly Maslenitsa with blini - round, yellow and hot as the sun, sledding and horse sleigh riding, fistfights and mother-in-law chatting. The rituals of Maslenitsa are very unusual and interesting because they combine the end of the winter holiday rituals and the opening of new spring festivals and ceremonies, which were to promote a rich harvest.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a3.jpg",
+            "Activities": "On Monday Maslenitsa was welcomed. On that day people made the straw-stuffed figure of Winter, dressed it in old women’s clothing and singing carried it on sleigh around the village.Tuesday was called “zaigrysh” (game day). From that day on the whole village started all sorts of activities: sleigh riding, folk festivals, skomorokh (traveling actors) and puppet shows.Wednesday - gourmand – opened feasts in houses with blini and other dishes. Each household had tables with delicious food, baked pancakes, and brewed beerthursday – revelry – came the climax of games and fun. It was then that the hottest fistfights took place.Friday it was their turn to arrange evenings with blini. On the day before mothers-in-law had to send to their sons-in-law homes everything necessary for blini making: pans, ladles etc., and fathers-in-law sent a bag of buckwheat and some butterSaturday was devoted to the visits of relatives paid to young wives.Sunday was named “forgiveness”. On that day people asked each other for forgiveness for all grievances and troubles; in the evening people went to cemeteries and “bid farewell” to the dead.Maslenitsa ended with the first day of the Lent – Clean Monday, which was considered the day of purification from sin and fast forbidden food",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af3.jpg",
+            "History": "Perhaps the most cheerful holiday in Russia is the Pancake week (Shrovetide). This holiday is considered to come from pre-Christian times, when the Slavs were still pagans. Maslenitsa is celebrated during the week preceding the Lent. Every day of Maslenitsa was devoted to special rituals.",
+            "Historyimg": "../assets/images/DetailFestival/History/h3.jpg",
+            "Location": "Russia",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Maslenitsa Festival ",
+            "Startday": "4-3",
+            "Synopsis": "Maslenitsa Festival is an Eastern Slavic religious and folk holiday, celebrated during the last week before Great Lent, that is, the eighth week before Eastern Orthodox Pascha (Easter). Maslenitsa corresponds to the Western Christian Carnival, except that Orthodox Lent begins on a Monday instead of a Wednesday, and the Orthodox date of Easter can differ greatly from the Western Christian date.",
+            "Video": "../assets/videos/Detailfestival/v3.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "Between the colorful Hoi An lantern festival held every month and the local favorite dish Cao Lau, it’s debatable which put this little town on the tourist map. The lantern festival has become popular enough that even if your visit isn’t on the full moon date you can still participate in the Hoi An traditional full moon festival just about any night. Lanterns are lit every night after the sun has sunk in Hoi An. Candles are placed at the bottom of the colorful paper lanterns. The Hoi An lantern festival is a gorgeous tradition.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a4.jpg",
+            "Activities": "The lanterns are set into the river as an offering and to worship their ancestors as well as the God of the land. This tradition started centuries ago, where on the full moon people from all over the region would come to participate. The practice is still alive today and at 8 pm on the eve of the full moon the lights of the town are shut off, and the only light comes from the lanterns being carried down the river. As beautiful as it was to see, I had visions in my head that the river would be full from bank to bank with colorful light, Hoi An, Vietnam is a beautiful city no matter what the stage the moon is in: Great food, culture, and just a charming town.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af4.jpg",
+            "History": ": Hoi An Lantern Festival is a monthly event that transforms the quaint UNESCO World Heritage Site into a spectacular display of paper lanterns. On the 14th day of each lunar month, every shop, restaurant, bar and businesses in the Ancient Town switches off all electricity and relies on hundreds of candles and lanterns. Meanwhile, entrance to all temples is free of charge, where you can see monks and locals holding candlelit ceremonies.",
+            "Historyimg": "../assets/images/DetailFestival/History/h4.jpg",
+            "Location": "Vietnam",
+            "Mapimg": "../images/DetailFestival/map/map2.gif",
+            "Name": "Hoi An Lantern Festival in Viet Nam ",
+            "Startday": "1-1",
+            "Synopsis": "With an array of architectural styles, a charming laidback atmosphere, and some of the country’s loveliest food, UNESCO World Heritage town Hoi An is a popular stop for first – and second and third – timers to Vietnam. The town is an attraction in itself, and you could easily lose a few days strolling around its pretty streets, stopping at cafes to sup iced coffees as you watch the world go by.",
+            "Video": "../assets/videos/Detailfestival/v4.mp4"
+        },
+        {
+            "Aboutfestival": "The White Nights Festival was first celebrated in 1992. In the same year, the festival was registered with an international body called International Federation of Festival Organizations (FIDOF). At that time, the head of the festival was the mayor of St. Petersburg who was Anatoly Sobchak. The purpose of the White Nights Festival is to enhance cultural exchanges between Russia and the whole world.",
+            "Activitesimg": "../assets/images/DetailFestival/Activities/a0.jpg",
+            "Activities": "The White Nights Festival normally commences with a performance of the “Stars of the White Nights.” This performance is a must-see event which takes place at the Mariinsky Theatre. It is an exceptional production which combines historical artistic works, new premieres, and contemporary pieces. In addition, there are musical performances in the form of ballets, classical music, and opera. Throughout the festival, there are evening performances at the Mariinsky Theatre and Mariinsky Concert Hall. The climax of the White Nights Festival is the “Scarlet Saints” celebration. Scarlet Saints involves an impressive display of fireworks and a pirates’ fight on the River Neva.",
+            "Festivalimg": "../assets/images/DetailFestival/AboutFestival/af0.jpg",
+            "History": "White Night (Nuit Blanche) was originally staged in Paris in 2002 as an all-night festival celebrating the French capital’s contemporary art scene. In 2013, Melbourne became the first Australian city to hold a White Night festival, embracing this unique opportunity – created by the State Government – to showcase local, national and international artistic innovation. It was an instant success, with 300 000 people enjoying the all-night event.",
+            "Historyimg": "../assets/images/DetailFestival/History/h0.jpg",
+            "Location": "russia",
+            "Name": "white night festival",
+            "Startday": "29-11",
+            "Synopsis": "The White Nights Festival is an international arts and music festival in Russia. It is celebrated during the season of the midnight sun where the Northern Lights shines at dusk and dawn. The festival usually takes place between May and July in St. Petersburg, Russia.",
+            "Video": "../assets/videos/Detailfestival/v0.mp4"
+        }
+    ],
+    "login": [
+        {
+            "Address": "123 ly thai tooooooo",
+            "Avatar": "../../assets/videos/Avatar/jacket1.jpg",
+            "Birthday": "2018-12-12",
+            "Email": "sindai12@gmail.com",
+            "Fullname": "nguyen huynh van b",
+            "IdCart": "0",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan1"
+        },
+        {
+            "Address": "",
+            "Avatar": "",
+            "Birthday": "",
+            "Email": "sindai12@gmail.com",
+            "Fullname": "nguyen huynh van a",
+            "IdCart": "1",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan2"
+        },
+        {
+            "Address": "mmm mmm",
+            "Avatar": "../images/Avatar/jacket1.jpg",
+            "Birthday": "2018-12-18",
+            "Email": "sindai12@gmail.com",
+            "Fullname": "nguyen huynh van k",
+            "IdCart": "2",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan3"
+        },
+        {
+            "Address": "23 ly van chanh",
+            "Avatar": "../images/Avatar/t-shrt.jpg",
+            "Birthday": "2018-12-25",
+            "Email": "sindai12@gmail.com",
+            "Fullname": "nguyen van hanh",
+            "IdCart": "3",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan4"
+        },
+        {
+            "Email": "sindai12@gmail.com",
+            "IdCart": "4",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan6"
+        },
+        {
+            "Email": "treeff@gmail.com",
+            "IdCart": "5",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan7"
+        },
+        {
+            "Email": "eessq@gmail.com",
+            "IdCart": "6",
+            "Password": "1234",
+            "Sdt": "21321321",
+            "Username": "nguyenvan8"
+        },
+        {
+            "Email": "abc12321@gmail.com",
+            "IdCart": "7",
+            "Password": "1234",
+            "Sdt": "1211232144",
+            "Username": "nguyenvan9"
+        },
+        {
+            "Email": "abcxb@gmail.com",
+            "IdCart": "8",
+            "Password": "1234",
+            "Sdt": "sadasdsa",
+            "Username": "nguyenvana"
+        },
+        {
+            "Address": "asdasddasdas",
+            "Avatar": "../images/Avatar/jacket1.jpg",
+            "Birthday": "2019-01-12",
+            "Email": "asdsad@gmail.com",
+            "Fullname": "nguyentranvanthub",
+            "IdCart": "9",
+            "Password": "1234",
+            "Sdt": "12345123",
+            "Username": "nguyenvanb"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<div class="container lisnexF">
+
+  <div class="row">
+      <div class="col-md-12" id="ShownextF">
+
+        <div class="row mb-2" *ngFor="let f of festivalList">
+              <div class="col-md-12">
+              <div class="card ">
+              <div class="card-body">
+              <div class="row">
+              <div class="col-md-4">
+              <img class="imgNF" name ="image" style="height: 100%; width: 100%;" [src]="f.Historyimg">
+              </div>
+              <div class="col-md-8">
+              <div class="news-title">
+              <a href="#"><h5 class="candal">{{f.Name}}</h5></a>
+          </div>
+              <div class="news-content">
+              <h5>Country: {{f.Location}}</h5>
+              </div>
+          <div class="news-content">
+              <h6>Start Day: {{f.Startday}}</h6>
+          </div>
+          <div class="news-content">
+              <p>{{f.Synopsis}}</p>
+          </div>
+          <div class="news-buttons">
+              <a routerLink="/detailF/{{f.id}}"  class="btn btn-primary readF">Read More</a>
+          </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+      
+
+      </div>
+
+  </div>
+</div>

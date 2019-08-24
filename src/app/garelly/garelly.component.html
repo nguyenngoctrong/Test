@@ -1,0 +1,51 @@
+<div class="home-doctors  clearfix">
+  <div class="container"  >
+      <div class="row" id="imageList">
+          <div class="visible-sm clearfix margin-gap"></div>
+
+          <div class="col-6 col-md-4  text-center doc-item" *ngFor="let g of garelly">
+              <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
+                  <ul class="list-inline social-lists animate">
+                      <li>
+                          <table>
+                              <tr><a href="#"><i class="far fa-heart"></i></a></tr>
+                              <tr><a href="#"><i class="fab fa-facebook-square"></i></a></tr>
+                              <tr><a href="#"><i class="fab fa-twitter-square"></i></a></tr>
+                              <tr><a href="#"><i class="fab fa-instagram"></i></a></tr>
+
+
+                          </table>
+                      </li>
+
+                  </ul>
+
+                  <figure>
+                      <img width="670" height="500" [src]="g.Image" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2">
+                  </figure>
+
+                  <div class="text-content">
+                      <h5>{{g.Title}}</h5>
+
+                  </div>
+              </div>
+          </div>
+
+
+
+      </div>
+
+      
+
+  </div>
+
+</div>
+<div class="container ipg">
+  <div  id="btn-group" class="btn-group" role="group" aria-label="First group">
+     
+      <button type="button" class="btn btn-primary" (click)="nextpage();">
+          Next <span class="badge badge-light">{{a}}</span>
+        </button>
+   
+  </div>
+  
+</div>

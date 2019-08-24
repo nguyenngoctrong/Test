@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row " >
+      <div class="col-sm-6 col-md-3 cardF" *ngFor="let f of festivalList">
+        <div class="news card mb-4 box-shadow">
+          <img class="imgfestival" [src]="f.Activitesimg" alt="...">
+          <div class="dates">
+            <h3 class="candal namFF">{{f.Name}}</h3>
+            <h4 class="religion">Nation :{{f.Location}} </h4>
+            <h5 class="startdayFF"> Start Day: {{f.Startday}}</h5>
+            <p class="cardFF">{{f.Synopsis}}</p>
+          </div>
+          <p><a routerLink="/detailF/{{f.id}}"  class="btn btn-primary more">More...</a>
+        </div>
+      </div>
+
+    
+  </div>
+  <div class="container ipg">
+      <div  id="btn-group" class="btn-group" role="group" aria-label="First group">
+         
+          <button type="button" class="btn btn-primary" (click)="nextpage();">
+              Next <span class="badge badge-light">{{a}}</span>
+            </button>
+       
+      </div>
+      
+  </div>
+</div>
+
+<!-- <table class="table table-sm table-hover">
+  <tr *ngFor="let f of festivalList">
+      <td>1 :{{f.id}}</td>
+      <td> 2:{{f.Aboutfestival}}</td>
+      <td>3:{{f.Activitesimg}}</td>
+      <td>4:{{f.Activities}}</td>
+      <td>5:{{f.Festivalimg}}</td>
+      <td>6:{{f.History}}</td>
+      <td>7:{{f.Historyimg}}</td>
+      <td>8:{{f.Location}}</td>
+      <td>9:{{f.Name}}</td>
+      <td>10:{{f.Startday}}</td>
+      <td>11:{{f.Synopsis}}</td>
+
+      
+  </tr>
+</table>  -->
+

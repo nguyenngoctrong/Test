@@ -1,0 +1,29 @@
+.news-title{
+    font-family: "Apple Color Emoji";
+    text-transform: uppercase;
+}
+.news-title h5{
+    font-size: 150%;
+    color: #6f42c1;
+    font-weight: bold;
+}
+.news-content h5{
+    color: #029f5b;
+    font-size: 110%;
+}
+.news-content h6{
+    color: red;
+    font-size: 110%;
+}
+.news-content p{
+    text-align: justify;
+}
+.imgCART{
+    height: 130px;
+}
+.ffff{
+    margin-top: 50px;
+}
+
+
+

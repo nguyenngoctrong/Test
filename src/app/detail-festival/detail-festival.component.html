@@ -1,0 +1,207 @@
+<!--modal Ticket-->
+<div  class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="far fa-address-card"></i><span>Ticket</span></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-2">
+                        <h5>Booking: </h5></div>
+                    <div class="col-12 col-md-3 col-lg-3 put">
+                        <input id="ticket" name="ticket" [(ngModel)]="totalTicket" class="form-control text-center" value="1" type="number" >
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 tic">
+                        <h5>Ticket</h5>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" data-type="Ticket" data-active="" data-dismiss="modal" class="btn btn-primary addtocart" (click)="addTicket();">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal TOur-->
+<div  class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-users"></i><span>Ticket Tour</span></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-2">
+                        <h5>Booking: </h5></div>
+                    <div class="col-12 col-md-3 col-lg-3 put">
+                        <input id="tour" class="form-control text-center" name="totalTourrr" [(ngModel)]="totalTour" value="1" type="number" >
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 tic">
+                        <h5>Ticket</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" data-type="Tour" data-active="" class="btn btn-primary addtocart" data-dismiss="modal" (click)="addTour();">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal Hotel-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-building"></i><span>Room</span></h3>
+                <button type="button"  class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <h5><label for="exampleFormControlSelect1">Room types:</label></h5>
+                    <select class="form-control" id="exampleFormControlSelect1" (change)="onChange($event)" >
+                        <option id="typeoption"></option>
+                        <option>Single room</option>
+                        <option>Double room</option>
+                        <option>Triple room</option>
+                        <option>Queen room</option>
+                        <option>Studio room</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-2">
+                        <h5>Booking: </h5></div>
+                    <div class="col-12 col-md-3 col-lg-3 put">
+                        <input  class="form-control text-center" id="hotel" name="amount" [(ngModel)]="totalHotel" value="1" type="number" >
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 tic">
+                        <h5>Room</h5>
+                    </div>
+                </div>
+                <br />
+                <h5>Date: </h5>
+                <p>From : <input id="startdayD" type="date" name="bday"   [(ngModel)]="startday">
+                    <span>To :<input id="enddayD" type="date" name="bday" [(ngModel)]="endday"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" data-type="Hotel" data-active="" data-dismiss="modal" class="btn btn-primary addtocart" (click)="addHotel();">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!--conten-->
+    <div class="container"  *ngFor="let detailF of festivalList">
+        <div class="container vid has-animation animation-rtl">
+            <video controls autoplay id="VideoFF">
+                    <source id="videoF" name="video" [src]="detailF.Video" type="video/mp4" />
+            </video>
+        </div>
+        <div class="content">
+            <div class="row inf">
+                <div class="col-12 infhead">
+                    <h2 id="nameF"> {{detailF.Name}}</h2>
+                    <p><i class="far fa-calendar-alt" id="dateF"> {{detailF.Startday}}</i></p>
+                    <p><i class="fas fa-map-marker-alt" id="locationF"> {{detailF.Location}}</i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 htext1">
+                    <h4>About Festival</h4>
+                    <img id="aboutI" [src]="detailF.Festivalimg">
+                </div>
+                <div class="col-md-8 intext">
+                    <p class="headd" id="synopsis"> {{detailF.Synopsis}}</p>
+                    <p id="aboutF"> {{detailF.Aboutfestival}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 intext">
+                    <p id="historyF"> {{detailF.History}}</p>
+                </div>
+                <div class="col-md-4 htext2">
+                    <h4>History</h4>
+                    <img id="historyI" [src]="detailF.Historyimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 htext1">
+                    <h4>Activities</h4>
+                    <img id="activitiI" [src]="detailF.Activitesimg">
+                </div>
+                <div class="col-md-8 intext">
+                    <p id="activitiF"> {{detailF.Activities}}</p>
+                </div>
+                <div class="ssss">
+                    <a class="pdf" href="../pdf/pdf0.pdf" download="filename" >Download festival information here</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--SERVICE-->
+    <div class="container service">
+        <div class="serhead">
+            <h3>recommended service</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+                <div class="container mt-40 mb-30">
+                    <div class="row mt-30">
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="box21">
+                                <img src="../../assets/images/service/ticket.jpg" alt="">
+                                <div class="box-content ">
+                                    <h4 class="title">TICKET</h4>
+                                    <p class="description">Only <span style="font-size: 18px; color:red"> $20</span> for a festival</p>
+                                    <span class="aaaa"><a class="read-more" type="button" data-toggle="modal" data-target="#exampleModal" href="#">Buy Now</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="box21">
+                                <img src="../../assets/images/service/tour.jpg" alt="">
+                                <div class="box-content ">
+                                    <h4 class="title">INDIA TOUR</h4>
+                                    <p class="description">Company response a tour in 3 day with <span style="font-size: 18px;color: red">30$</span> per person.</p>
+                                    <span class="aaaa"><a class="read-more" type="button" data-toggle="modal" data-target="#exampleModalLong" href="#">Booking Now</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="box21">
+                                <img src="../../assets/images/service/hotel.jpg" alt="">
+                                <div class="box-content ">
+                                    <h4 class="title">FESTI HOTEL</h4>
+                                    <p class="description">Far 1km from festival's location with good view and best service.</p>
+                                    <span class="aaaa"><a  id="showmodalhotel" class="read-more" type="button" data-toggle="modal" data-target="#exampleModalCenter" href="#">Make Reservation</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,49 @@
+.md-accordion{
+    background-color: #e9ecef;
+    border-radius: 25px;
+    padding: 3% 4%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border: 10px inset #ECC6DD;
+}
+#hdr {
+
+    text-decoration: underline;
+    font-size: 40px;
+    color: #D71F87;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.md-accordion .card .card-header a.collapsed h5{
+    display: block;
+    font-style: italic;
+    font-size: 1.1rem;
+    text-transform: none;
+}
+.md-accordion .card .card-header a h5.mb-0:after{
+    font-family: 'FontAwesome';
+    font-style: normal;
+    content: "\f139";
+    font-size: 1rem;
+    color: #1f7de2;
+    float: right;
+    margin-top: 5px;
+}
+.md-accordion .card .card-header a.collapsed h5.mb-0:after {
+    content: "\f13a";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1rem;
+}
+
+.card-header .collapsed .mb-0{
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+.card-body{
+    font-size: 20px;
+    font-style: italic;
+}
+
+

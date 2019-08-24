@@ -1,0 +1,45 @@
+
+#fb-form {
+    max-width: 400px;
+    position: relative;
+    margin: 50px auto;
+    min-height: 200px;
+    z-index: 100;
+    padding: 30px;
+    border: 1px solid #383838;
+    /* My stipped background */
+    background: #D1D1D1; /* Old browsers */
+    background: -moz-repeating-linear-gradient(-45deg, #EFC1CB , #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px,#F2F2F2 70px, #F2F2F2 80px); /* FF3.6+ */
+    background: -webkit-repeating-linear-gradient(-45deg, #EFC1CB , #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px,#F2F2F2 70px, #F2F2F2 80px); /* FF3.6+ */
+    background: -o-repeating-linear-gradient(-45deg, #EFC1CB , #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px,#F2F2F2 70px, #F2F2F2 80px); /* FF3.6+ */
+    background: repeating-linear-gradient(-45deg, #EFC1CB , #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px,#F2F2F2 70px, #F2F2F2 80px); /* FF3.6+ */
+    /*border-radius*/
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /*box-shadow*/
+    -webkit-box-shadow: 0px 1px 6px #3F3F3F;
+    -moz-box-shadow: 0px 1px 6px #3F3F3F;
+    box-shadow: 0px 1px 6px #3F3F3F;
+}
+
+#fb-form form {
+    z-index: 101;
+}
+
+#fb-form:after {
+    background: #F9F9F9;
+    margin: 10px;
+    position: absolute;
+    content : " ";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border: 1px #E5E5E5 solid;
+    /*border-radius*/
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}

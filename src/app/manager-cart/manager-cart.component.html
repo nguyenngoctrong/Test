@@ -1,0 +1,173 @@
+<div class="container lisnexF">
+
+    <div class="row">
+        <div class="col-md-12" id="ShownextF">
+            <!-- ----------------------------- -->
+            <div class="row mb-2" *ngFor="let t of cartService.listTicket">
+                <div class="col-md-12">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="imgNF" src="../../assets/images/service/ticket.jpg">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="news-title">
+                                        <a href="#">
+                                            <h5>{{t.NameFestival}}</h5>
+                                        </a>
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Total Tickets: </h5>
+                                        <input type="number" [(ngModel)]="t.Amount">
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Money: {{t.Money}}</h5>
+                                    </div>
+                                    <div class="news-buttons">
+                                        <span><a class="btn btn-primary CartDetail"
+                                                routerLink="/detailcart/{{t.IdFestival}}/{{t.id}}/Ticket"
+                                                role="button">Detail</a><button type="button" class="btn btn-danger ddd"
+                                                (click)="deleteCart('Ticket',t.id,t.Amount)">Delete</button> <button
+                                                type="button" class="btn btn-success saveM"
+                                                (click)="updateTicket(t.id)">save</button></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ---------------------------------------- -->
+            <div class="row mb-2" *ngFor="let t of cartService.listTour">
+                <div class="col-md-12">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="imgNF" src="../../assets/images/service/tour.jpg">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="news-title">
+                                        <a href="#">
+                                            <h5>{{t.NameFestival}}</h5>
+                                        </a>
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Total Tickets: </h5>
+                                        <input type="number" [(ngModel)]="t.Amount">
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Money: {{t.Money}}</h5>
+                                    </div>
+                                    <div class="news-buttons">
+                                        <span><a class="btn btn-primary CartDetail"
+                                                routerLink="/detailcart/{{t.IdFestival}}/{{t.id}}/Tour"
+                                                role="button">Detail</a><button type="button" class="btn btn-danger ddd"
+                                                (click)="deleteCart('Tour',t.id,t.Amount)">Delete</button> <button
+                                                type="button" class="btn btn-success saveM"
+                                                (click)="updateTour(t.id)">save</button></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------- -->
+            <div class="row mb-2" *ngFor="let t of cartService.listHotel">
+                <div class="col-md-12">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="imgNF" src="../../assets/images/service/hotel.jpg">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="news-title">
+                                        <a href="#">
+                                            <h5>{{t.NameFestival}}</h5>
+                                        </a>
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Total member: </h5>
+                                        <input type="number" [(ngModel)]="t.Amount">
+                                    </div>
+                                    <div class="news-content">
+                                        <h5><label for="exampleFormControlSelect1">Room types:</label></h5>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            (change)="onChange($event)">
+                                            <option id="typeoption">{{t.Typeroom}}</option>
+                                            <option>Single room</option>
+                                            <option>Double room</option>
+                                            <option>Triple room</option>
+                                            <option>Queen room</option>
+                                            <option>Studio room</option>
+                                        </select>
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Start Day: </h5>
+                                        <input type="date" [(ngModel)]="t.Startday">
+                                    </div>
+                                    <div class="news-content">
+                                        <h5>Enday</h5>
+                                        <input type="date" [(ngModel)]="t.Endday">
+
+                                    </div>
+                                    <div class="news-buttons">
+                                        <span><a class="btn btn-primary CartDetail"
+                                                routerLink="/detailcart/{{t.IdFestival}}/{{t.id}}/Hotel"
+                                                role="button">Detail</a><button type="button" class="btn btn-danger ddd"
+                                                (click)="deleteCart('Hotel',t.id,t.Amount)">Delete</button> <button
+                                                type="button" class="btn btn-success saveM" (click)="updateHotel(t.id)">save</button></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------- -->
+        </div>
+
+    </div>
+    <div class="row purchase">
+        <div class="row mb-2">
+            <div class="col-md-12">
+                <div class="card ">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="imgCART" src="../../assets/images/service/cart.jpg"></div>
+                            <div class="col-md-8">
+                                <div class="news-title">
+                                    <a href="#">
+                                        <h6>Total ticket amount</h6>
+                                    </a>
+                                </div>
+                                <div class="news-title">
+                                    <ul>
+                                        <li>
+                                            <h4>We only have festival and travel ticket payment services</h4>
+                                        </li>
+                                        <li>
+                                            <h4>If you want to book the hotel please click on the details section of the
+                                                cart</h4>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="news-buttons">
+                                    <input class="btn btn-primary" data-toggle="modal" data-target="#squarespaceModalXX"
+                                        type="button" value="Purchase">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
